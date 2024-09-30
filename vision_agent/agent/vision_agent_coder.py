@@ -455,11 +455,8 @@ class VisionAgentCoder(Agent):
         Parameters:
             chat (List[Message]): A conversation in the format of
                 [{"role": "user", "content": "describe your task here..."}].
-<<<<<<< HEAD
             plan_context (PlanContext): The context of the plan, including the plans,
                 best_plan, plan_thoughts, tool_doc, and tool_output.
-=======
->>>>>>> 13f0a8a (separated out planner, renamed chat methods)
             test_multi_plan (bool): Whether to test multiple plans or just the best plan.
             custom_tool_names (Optional[List[str]]): A list of custom tool names to use
                 for the planner.
